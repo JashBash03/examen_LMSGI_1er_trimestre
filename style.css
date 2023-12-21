@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+:root{
+    font-family: monospace;
+    font-size: large;
+}
+
+section{
+    height: 100vh;
+}
+
+.Orientacion{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+#primera_seccion{
+    background: lightseagreen;
+}
+
+#segunda_seccion{
+    background: orangered;
+}
+
+img{
+    height: 50vh;
+}
+
+#segunda_seccion p{
+    font-style: italic;
+}
+
+#tercera_seccion{
+    background: purple;
+}
